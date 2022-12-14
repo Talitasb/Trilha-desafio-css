@@ -1,0 +1,147 @@
+
+* {
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+  background-color: black;
+}
+
+header{
+background-image: linear-gradient(rgba(15, 93, 126, 0),
+ rgba(50, 168, 219, .2)), url(./imagens/banner.png);
+}
+
+header img{
+  margin-top: 90px;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+header h1{
+  margin-top: 50px;
+  text-align: center;
+  color: #33A8DB;
+  margin-bottom: 20px;
+}
+
+header p{
+  line-height: 25px;
+  text-align: center;
+  color: white;
+}
+
+header button{
+  margin-left: 40%;
+  margin-bottom: 50px;
+  padding: 16px 32px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+  margin-top: 20px;
+  background: transparent;
+  color: #33A8DB;
+  border-color: #33A8DB ;
+}
+.aprender h1{
+  margin-top: 90px;
+  text-align: center;
+  color: #33A8DB;
+  margin-bottom: 50px;
+}
+
+.aprender p{
+  line-height: 25px;
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.aprender button{
+  padding: 16px 32px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+  margin-left: auto;
+    margin-right: auto;
+  display: block;
+  border-radius: 10cm;
+  background-color: #252525;
+  border-color: #33A8DB;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.aprender button a{
+  color: #33A8DB;
+}
+
+.aprender{
+  margin-bottom: 90px;
+}
+
+.transforme{
+  background-image: url(./imagens/woman-code.png) ;
+  height: 560px;
+  background-size: cover;
+  background-attachment: fixed
+}
+
+.transforme p{
+  display: block;
+  line-height: 50px;
+  margin-left: 20%;
+  margin-right: 65%;
+  margin-left: 200px;
+  padding-top: 200px;
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 900;
+  text-shadow: 3px 2px #33a8db;
+
+}
+
+.evolua h1{
+  margin-top: 90px;
+  color: #33a8db;
+  text-align: center;
+}
+
+.evolua img{
+  margin-top: 90px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.evolua p{
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 50px;
+  color: white;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+footer{
+  padding: 60px;
+  background-image: linear-gradient(rgba(50, 168, 219, .0), rgba(50, 168, 219, .2));
+}
+footer img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer p{
+  text-align: center;
+  color: white;
+}
+footer a{
+  text-decoration: none;
+  color: #33a8db;
+  font-weight: bold;
+}
